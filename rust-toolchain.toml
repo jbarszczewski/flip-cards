@@ -1,0 +1,5 @@
+[toolchain]
+channel = "stable"
+components = ["rustfmt", "rustc-dev"]
+profile = "minimal"
+targets = ["wasm32-unknown-unknown"]
