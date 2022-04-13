@@ -41,7 +41,7 @@ fn videos_list(VideosListProps { videos, on_click }: &VideosListProps) -> Html {
 fn video_details(VideosDetailsProps { video }: &VideosDetailsProps) -> Html {
     html! {
         <div>
-            <h3>{ video.title.clone() }</h3>
+            <h3 class={classes!("text-2xl", "font-bold", "underline")}>{ video.title.clone() }</h3>
             <img src="https://via.placeholder.com/640x360.png?text=Video+Player+Placeholder" alt="video thumbnail" />
         </div>
     }
